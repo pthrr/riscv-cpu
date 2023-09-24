@@ -1,8 +1,8 @@
-package alu
+package cpu
 
 import chisel3._
 
-import cpu.Constants._
+import common.Constants._
 
 class ALU(width_ops: Int, width_sel: Int) extends Module {
   val io = IO(new Bundle {
